@@ -10,12 +10,11 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
 
 
 **2. Scheduling & SMS Reminder Analysis**
-<img width="2534" height="1426" alt="patient_location_page" src="https://github.com/user-attachments/assets/51e82474-0546-40af-9693-7b5df6680338" />
+<img width="2532" height="1424" alt="scheduling_sms_page" src="https://github.com/user-attachments/assets/3ccd9f91-da7f-41b3-9d3e-917d0cc6f153" />
 
 
 **3. Patient & Location Risk Analysis**
-<img width="2532" height="1424" alt="scheduling_sms_page" src="https://github.com/user-attachments/assets/3ccd9f91-da7f-41b3-9d3e-917d0cc6f153" />
-
+<img width="2534" height="1426" alt="patient_location_page" src="https://github.com/user-attachments/assets/51e82474-0546-40af-9693-7b5df6680338" />
 
 <details open>
   <summary>🇬🇧 <b>English Version</b></summary>
@@ -52,10 +51,10 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   * Do patients with certain medical conditions, such as hypertension, diabetes, alcoholism, or disability status, show different attendance patterns?
 
   ## Tools Used
-  * **SQL (DBeaver)**
-  * **Power BI**
-  * **Excel**
-  * **GitHub**
+* **SQL (DBeaver)** – data cleaning and validation
+* **Power BI** – dashboard development and visualization
+* **Excel** – initial data review
+* **GitHub** – project documentation and version control
 
   ## Project Workflow
   
@@ -116,7 +115,7 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   * The analysis identifies patterns and associations, not causal relationships.
   * Neighbourhood-level analysis does not include exact distance, travel time, or transportation access.
   * External factors such as weather, clinic capacity, doctor availability, and patient socioeconomic details are not available.
-  * 
+
   ## Conclusion
   This project demonstrates how SQL and Power BI can be used to analyze healthcare appointment no-show patterns. The analysis found that waiting time, patient age group, SMS reminder status, and neighbourhood-level patterns are associated with patient attendance behavior. The dashboard helps summarize key attendance metrics, identify scheduling-related risks, and highlight patient and location segments that may need further attention.
 
@@ -151,7 +150,7 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   ## Pertanyaan Bisnis (*Business Questions*)
   Proyek ini bertujuan untuk menjawab beberapa pertanyaan berikut:
   * Bagaimana tingkat kehadiran dan persentase *no-show* pasien secara keseluruhan?
-  * Bagaimana pengaruh waktu tunggu (selisih antara tanggal penjadwalan dan tanggal janji temu) terhadap tingkat *no-show*?
+  * Bagaimana hubungan waktu tunggu (selisih antara tanggal penjadwalan dan tanggal janji temu) dengan tingkat *no-show*?
   * Apakah terdapat perbedaan pola kehadiran antara pasien yang menerima SMS pengingat dan yang tidak?
   * Wilayah mana yang memiliki risiko *no-show* tertinggi, dengan mempertimbangkan volume janji temu dan persentasenya?
   * Kelompok usia manakah yang memiliki tingkat *no-show* tertinggi?
@@ -159,10 +158,10 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   * Apakah pasien dengan riwayat medis tertentu (hipertensi, diabetes, alkoholisme, atau disabilitas) menunjukkan pola kehadiran yang berbeda?
 
   ## Alat yang Digunakan
-  * **SQL (DBeaver)**
-  * **Power BI**
-  * **Excel**
-  * **GitHub**
+* **SQL (DBeaver)** – data cleaning and validation
+* **Power BI** – dashboard development and visualization
+* **Excel** – initial data review
+* **GitHub** – project documentation and version control
 
   ## Alur Kerja Proyek (*Project Workflow*)
   
@@ -198,7 +197,7 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   * Short Wait: 1-7 hari
   * Medium Wait: 8-30 hari
   * Long Wait: 31-90 hari
-  * Very Long Wait: Lebih dari 91 hari
+  * Very Long Wait: 91 hari atau lebih
 
   ### 5. Analisis Data Eksploratif (EDA)
   Sebelum merakit *dashboard*, analisis awal dilakukan untuk menjawab pertanyaan dasar dari dataset yang sudah bersih, seperti menghitung total janji temu, persentase kehadiran, kelompok waktu tunggu yang paling umum, serta distribusi pasien berdasarkan kelompok usia dan lokasi.
@@ -225,7 +224,7 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
   * Faktor eksternal seperti cuaca, kapasitas maksimum klinik, ketersediaan dokter secara *real-time*, dan kondisi sosial ekonomi pasien tidak tersedia di dalam dataset ini.
     
   ## Kesimpulan
-  Proyek ini mendemonstrasikan bagaimana SQL dan Power BI dapat dikolaborasikan untuk membedah masalah operasional layanan kesehatan. Analisis membuktikan bahwa durasi waktu tunggu, kelompok usia pasien, status penerimaan SMS, dan lokasi wilayah memiliki keterkaitan erat dengan perilaku kehadiran pasien. *Dashboard* yang dihasilkan mampu merangkum metrik secara efektif, memetakan risiko operasional, serta menyoroti segmen yang membutuhkan penanganan lebih lanjut dari pihak manajemen rumah sakit.
+  Proyek ini mendemonstrasikan bagaimana SQL dan Power BI dapat dikolaborasikan untuk membedah masalah operasional layanan kesehatan. Analisis menunjukkan bahwa durasi waktu tunggu, kelompok usia pasien, status penerimaan SMS, dan lokasi wilayah memiliki keterkaitan dengan perilaku kehadiran pasien. *Dashboard* yang dihasilkan mampu merangkum metrik secara efektif, memetakan risiko operasional, serta menyoroti segmen yang membutuhkan penanganan lebih lanjut dari pihak manajemen rumah sakit.
 
 </details>
 
