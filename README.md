@@ -4,6 +4,18 @@ Data analysis of healthcare appointment no-shows using SQL and Power BI.
 🌍 **Language / Bahasa:** This README is available in English and Bahasa Indonesia.
 
 ---
+## 📊 Dashboard Preview
+**1. Executive Overview**
+<img width="2194" height="1244" alt="overview_page" src="https://github.com/user-attachments/assets/6c5f08d1-a2e7-4f38-b440-f2e982df5057" />
+
+
+**2. Scheduling & SMS Reminder Analysis**
+<img width="2534" height="1426" alt="patient_location_page" src="https://github.com/user-attachments/assets/51e82474-0546-40af-9693-7b5df6680338" />
+
+
+**3. Patient & Location Risk Analysis**
+<img width="2532" height="1424" alt="scheduling_sms_page" src="https://github.com/user-attachments/assets/3ccd9f91-da7f-41b3-9d3e-917d0cc6f153" />
+
 
 <details open>
   <summary>🇬🇧 <b>English Version</b></summary>
